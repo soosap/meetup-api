@@ -193,7 +193,7 @@
     "method": "delete"
   },
   "getEventPhotos": {
-    "resource": "https://api.meetup.com/3/:urlname/events/:id/photos",
+    "resource": "https://api.meetup.com/:urlname/events/:id/photos",
     "method": "get",
     "test": {
       "params": {
