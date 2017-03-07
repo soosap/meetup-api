@@ -192,6 +192,19 @@
     "resource": "https://api.meetup.com/2/event_comment_like/:id",
     "method": "delete"
   },
+  "getEventPhotos": {
+    "resource": "https://api.meetup.com/3/:urlname/events/:id/photos",
+    "method": "get",
+    "test": {
+      "params": {
+        "urlname": "ReactStuttgart",
+        "id": "233941914"
+      },
+      "return": {
+        "type": "array"
+      }
+    }
+  },
   "postEventsWatchlist": {
     "resource": "https://api.meetup.com/:urlname/events/:id/watchlist",
     "method": "post"
